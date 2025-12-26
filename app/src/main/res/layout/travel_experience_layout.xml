@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <LinearLayout
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTravelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Travel Name"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvTravelNote"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Travel Note"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location: 0.0, 0.0"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/sharelayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"></Button>
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/ivTravelImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background" />
+</LinearLayout>

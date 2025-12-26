@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etTravelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Travel Name"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etTravelNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Travel Note"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnTakePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take Picture"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnSelectFromGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select from Gallery"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etLongitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Longitude"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etLatitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Latitude"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+
+
+    <Button
+        android:id="@+id/btnSaveTravel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Travel"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
